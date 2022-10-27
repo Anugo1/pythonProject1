@@ -1,5 +1,4 @@
-# Python 3 program to find the least
-# frequent element in an array.
+# Python 3 program to find the nth rarest item.
 
 
 def nth_most_rate_signature(arr, n):
@@ -30,7 +29,7 @@ def nth_most_rate_signature(arr, n):
 
 
 # Driver program
-arr = [1, 3, 2, 1, 2, 2, 3, 1]
+arr = [1, 3, 2, 3, 1, 4, 3, 2, 2, 3, 1]
 n = len(arr)
-print("", nth_most_rate_signature(arr, n), "is the rarest item")
+print("", nth_most_rate_signature(arr, n), "is the rarest nth item")
 
